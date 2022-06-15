@@ -48,7 +48,7 @@ You can also include this mod in your mod so the user only needs to download you
 Examples of doing that:
 #### Example build.gradle
 ```groovy
-reporitories {
+repositories {
     maven {
         name = "Modrinth"
         url = "https://api.modrinth.com/maven"
