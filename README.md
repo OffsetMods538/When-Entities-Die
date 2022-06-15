@@ -46,7 +46,7 @@ Look at the example advancement from the datapack section.
 
 You can also include this mod in your mod so the user only needs to download your mod.
 Examples of doing that:
-#### Example build.gradle
+#### Example repositories block in build.gradle
 ```groovy
 repositories {
     maven {
@@ -57,7 +57,9 @@ repositories {
         }
     }
 }
-
+```
+#### Example dependencies block in build.gradle
+```groovy
 dependencies {
     modImplementation include("maven.modrinth:when-entities-die:1.0+1.19")
 }
