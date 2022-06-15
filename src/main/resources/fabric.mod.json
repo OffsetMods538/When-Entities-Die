@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "when-entities-die",
+  "version": "${version}",
+  "name": "When Entities Die",
+  "description": "Adds an advancement criterion for killing a mob using an item.",
+  "contact": {
+    "sources": "https://github.com/OffsetMonkey538/When-Entities-Die"
+  },
+  "authors": [
+    {
+      "name": "OffsetMonkey538",
+      "contact": {
+        "homepage": "https://github.com/OffsetMonkey538"
+      }
+    }
+  ],
+  "license": "MIT",
+  "icon": "assets/when-entities-die/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.offsetmonkey538.whenentitiesdie.WhenEntitiesDie"
+    ]
+  },
+  "mixins": [
+    "when-entities-die.mixins.json"
+  ],
+  "depends": {
+    "minecraft": [
+      "1.19"
+    ]
+  }
+}
