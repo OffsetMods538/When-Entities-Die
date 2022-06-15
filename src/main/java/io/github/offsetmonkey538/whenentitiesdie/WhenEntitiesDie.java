@@ -7,6 +7,5 @@ public class WhenEntitiesDie implements ModInitializer {
     @Override
     public void onInitialize() {
         ModCriteria.register();
-        // TODO: Check all the versions the mod can run on. Add them to fabric.mod.json
     }
 }

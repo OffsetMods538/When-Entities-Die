@@ -27,8 +27,6 @@
     "when-entities-die.mixins.json"
   ],
   "depends": {
-    "minecraft": [
-      "1.19"
-    ]
+    "minecraft": "*"
   }
 }
