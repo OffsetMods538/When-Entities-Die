@@ -49,10 +49,10 @@ You can also include this mod in your mod.
 ```groovy
 repositories {
     maven {
-        name = "Modrinth"
-        url = "https://api.modrinth.com/maven"
+        name = "JitPack"
+        url = "https://jitpack.io/"
         content {
-            includeGroup "maven.modrinth"
+            includeGroup "top.offsetmonkey538"
         }
     }
 }
@@ -60,7 +60,7 @@ repositories {
 #### Example dependencies block in build.gradle
 ```groovy
 dependencies {
-    modImplementation include("maven.modrinth:when-entities-die:1.0+1.19")
+    modImplementation include("top.offsetmonkey538:when-entities-die:v1.0+1.19")
 }
 ```
-*Note: this example will get updated to use the latest version. You can look at all the versions on the [versions page](https://modrinth.com/mod/when-entities-die/versions)*
+*Note: this example will get updated to use the latest version. You can look at all the versions on [jitpack](https://jitpack.io/#top.offsetmonkey538/When-Entities-Die).*
