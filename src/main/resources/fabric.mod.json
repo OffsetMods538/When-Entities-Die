@@ -20,7 +20,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.github.offsetmonkey538.whenentitiesdie.WhenEntitiesDie"
+      "top.offsetmonkey538.whenentitiesdie.WhenEntitiesDie"
     ]
   },
   "mixins": [
