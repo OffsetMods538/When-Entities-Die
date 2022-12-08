@@ -20,7 +20,7 @@ Example advancement that triggers when a player kills a skeleton using a diamond
     },
     "frame": "task",
     "show_toast": true,
-    "annouce_to_chat": true,
+    "announce_to_chat": true,
     "hidden": false
   },
   "criteria": {
