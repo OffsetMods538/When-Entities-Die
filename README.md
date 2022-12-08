@@ -1,6 +1,7 @@
+[![](https://jitpack.io/v/top.offsetmonkey538/When-Entities-Die.svg)](https://jitpack.io/#top.offsetmonkey538/When-Entities-Die)
 # Description
 ## Installation
-Just download the latest version from the [versions page](https://modrinth.com/mod/when-entities-die/versions) and put it in the mods folder. Fabric API is not needed to use this mod. **The mod only needs to be installed on the server**
+Just download the latest version from the [versions page](https://modrinth.com/mod/when-entities-die/versions) and put it in the `mods` folder. Fabric API is not needed to use this mod. **The mod only needs to be installed on the server**
 ## Usage
 ### Datapacks
 Inside a datapack, you make a normal advancement and use the `when-entities-die:killed_using_item` trigger.
@@ -41,11 +42,9 @@ Example advancement that triggers when a player kills a skeleton using a diamond
 }
 ```
 ### Mods
-Inside a mod, you do exactly the same thing as in a datapack:
-Look at the example advancement from the datapack section.
+Inside a mod, you do exactly the same thing as in a datapack.
 
-You can also include this mod in your mod so the user only needs to download your mod.
-Examples of doing that:
+You can also include this mod in your mod.
 #### Example repositories block in build.gradle
 ```groovy
 repositories {
